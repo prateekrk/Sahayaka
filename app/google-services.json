@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "217971481422",
+    "firebase_url": "https://shahayak-31367.firebaseio.com",
+    "project_id": "shahayak-31367",
+    "storage_bucket": "shahayak-31367.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217971481422:android:28d16e64c4427b2fc65c1f",
+        "android_client_info": {
+          "package_name": "com.academicbot.sahayaka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217971481422-gh4c1c9ne643cvrvpfh7jif9rvlq7lci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYQgx8iNMnOEAuNs5xswF63URdmbk7k_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "217971481422-gh4c1c9ne643cvrvpfh7jif9rvlq7lci.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

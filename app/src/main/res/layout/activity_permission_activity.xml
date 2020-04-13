@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#32cd32"
+    tools:context=".permission_activity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:background="@android:color/white">
+
+    <EditText
+        android:singleLine="true"
+        android:id="@+id/e14"
+        android:padding="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:textSize="20dp"
+        android:hint="Name *"
+        android:background="@drawable/curve"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:singleLine="true"
+        android:id="@+id/e15"
+        android:padding="6dp"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:drawableLeft="@drawable/ic_local_phone_black_24dp"
+        android:textSize="20dp"
+        android:hint="Phone No. *"
+        android:background="@drawable/curve"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:singleLine="true"
+        android:id="@+id/e16"
+        android:inputType="number"
+        android:padding="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:drawableLeft="@drawable/ic_edit_black_24dp"
+        android:textSize="20dp"
+        android:hint="Age *"
+        android:background="@drawable/curve"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:padding="8dp"
+        android:background="@drawable/curve"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:layout_marginRight="20dp"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/ic_group_black_24dp"
+            android:textColor="@android:color/black"/>
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="30sp">
+
+        </Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:padding="8dp"
+        android:background="@drawable/curve"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Are you \nsymptomatic?"
+            android:padding="8dp"
+            android:layout_marginRight="20dp"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"/>
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="30sp">
+
+        </Spinner>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/e17"
+        android:padding="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:drawableLeft="@drawable/ic_location_city_black_24dp"
+        android:textSize="20dp"
+        android:hint="Visiting Area *"
+        android:background="@drawable/curve"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+
+        android:id="@+id/e18"
+        android:padding="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:textSize="20dp"
+        android:hint="Purpose *"
+        android:singleLine="true"
+        android:background="@drawable/curve"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:id="@+id/b7"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Outgoing Date *"
+        android:padding="8dp"
+        android:drawableLeft="@drawable/ic_date_range_black_24dp"
+        android:background="@drawable/curve"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:id="@+id/b8"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Outgoing Time*"
+        android:padding="8dp"
+        android:drawableLeft="@drawable/ic_access_time_black_24dp"
+        android:background="@drawable/curve"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:id="@+id/b9"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Expected Return Time *"
+        android:padding="8dp"
+        android:drawableLeft="@drawable/ic_access_time_black_24dp"
+        android:background="@drawable/curve"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:singleLine="true"
+        android:id="@+id/e19"
+        android:padding="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:drawableLeft="@drawable/ic_edit_black_24dp"
+        android:textSize="20dp"
+        android:hint="Email *"
+        android:background="@drawable/curve"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:id="@+id/b10"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Submit"
+        android:background="#FFFDD0"
+        />
+</LinearLayout>
+</ScrollView>

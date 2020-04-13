@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".farmers_form"
+    android:background="#32cd32"
+
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="10dp"
+        android:text="Fill the form for min 1 item, if more than 3 fill another form.\nFalse information may subject to legal action\n(Fields marked with * are compulsory)\nPrices are subjected to negotiations"/>
+    <EditText
+        android:id="@+id/e1"
+        android:padding="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:textSize="20dp"
+        android:singleLine="true"
+        android:hint="Name *"
+        android:background="@drawable/curve"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:id="@+id/e2"
+        android:padding="6dp"
+        android:singleLine="true"
+        android:drawableLeft="@drawable/ic_local_phone_black_24dp"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:inputType="number"
+        android:hint="Phone *"
+        android:background="@drawable/curve"
+        android:textColor="@android:color/black"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:id="@+id/e3"
+        android:padding="6dp"
+        android:inputType="number"
+        android:drawableLeft="@drawable/ic_edit_black_24dp"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:hint="Age *"
+        android:singleLine="true"
+
+        android:background="@drawable/curve"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:id="@+id/e4"
+        android:padding="6dp"
+        android:drawableLeft="@drawable/ic_edit_black_24dp"
+        android:hint="Crop/Commodity 1 *"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:background="@drawable/curve"
+        android:layout_height="40dp"
+        android:singleLine="true"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:id="@+id/e5"
+        android:padding="6dp"
+        android:drawableLeft="@drawable/ic_edit_black_24dp"
+        android:hint="Quantity(in KGs) *"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:singleLine="true"
+        android:inputType="number"
+
+        android:background="@drawable/curve"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:id="@+id/e6"
+        android:singleLine="true"
+        android:padding="6dp"
+        android:hint="Price per KG *"
+        android:drawableLeft="@drawable/ic_edit_black_24dp"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:inputType="number"
+        android:background="@drawable/curve"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:singleLine="true"
+        android:id="@+id/e7"
+        android:padding="6dp"
+        android:background="@drawable/curve"
+        android:drawableLeft="@drawable/ic_edit_black_24dp"
+        android:hint="Crop/Commodity 2"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:singleLine="true"
+        android:id="@+id/e8"
+        android:padding="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/curve"
+        android:drawableLeft="@drawable/ic_edit_black_24dp"
+        android:hint="Quantity(in KGs)"
+        android:inputType="number"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/e9"
+        android:singleLine="true"
+        android:padding="6dp"
+        android:drawableLeft="@drawable/ic_edit_black_24dp"
+        android:hint="Price per KG"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:inputType="number"
+        android:background="@drawable/curve"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:singleLine="true"
+        android:id="@+id/e10"
+        android:padding="6dp"
+        android:drawableLeft="@drawable/ic_edit_black_24dp"
+        android:hint="Crop/Commodity 3"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:background="@drawable/curve"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:singleLine="true"
+        android:id="@+id/e11"
+        android:padding="6dp"
+        android:inputType="number"
+        android:drawableLeft="@drawable/ic_edit_black_24dp"
+        android:hint="Quantity(in KGs)"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:background="@drawable/curve"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:singleLine="true"
+        android:id="@+id/e12"
+        android:padding="6dp"
+        android:inputType="number"
+        android:drawableLeft="@drawable/ic_edit_black_24dp"
+        android:hint="Price per KG"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:background="@drawable/curve"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:singleLine="true"
+        android:id="@+id/e13"
+        android:padding="6dp"
+        android:hint="Your Complete address *"
+        android:drawableLeft="@drawable/ic_edit_black_24dp"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:background="@drawable/curve"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:id="@+id/b6"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:background="#FFFDD0"
+        />
+</LinearLayout>
+</ScrollView>
