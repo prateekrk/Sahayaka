@@ -5,7 +5,7 @@ Use/s: Helpful for farmers to market their commodities with the government, enab
 Tech Stack: Java, XML, Google Firebase (NoSQL Database), Android Studio<br>
 
 
-Submitted the project as a part of participation in the online hackathon, #COVID19INDIA - April 2020.
+
 
 
 Instructions:<br>
